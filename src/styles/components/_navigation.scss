@@ -1,0 +1,21 @@
+.navigation{
+    margin: 30px 0;
+
+    a{
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+    }
+    .nav-active{
+        &::after{
+            content: "";
+            width: 80px;
+            height: 5px;
+            background: $color-1;
+            position: absolute;
+            bottom: 1px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+}
