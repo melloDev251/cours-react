@@ -61,7 +61,7 @@ const Countries = () => {
       </div>
       <div className="cancel">
         {selectedRadio && (
-          <h5 onClick={() => setSelectedRadio("")}>Annuler recherche</h5>
+          <h5 onClick={() => setSelectedRadio("")}>Annuler votre recherche</h5>
         )}
       </div>
       <ul className="countries-list">
